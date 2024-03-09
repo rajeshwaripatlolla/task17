@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://127.0.0.1:5500/folder2/register.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <center><h2> RIGISTER HERE</h2> </center>
+        
+        <hr> 
+        <h4> PERSONAL INFORMATION </h4>
+        <fieldset>
+        <legend> personalia:</legend>
+        <label for="_fname">First name: </label><br>
+        <input type="text" id="fname" name="fname" fdprocessedid="nvnldg">
+<br>
+         <label for="_sname"> Second name:</label><br>
+         
+         <input type="text" id="sname" name="sname" fdprocessedid="9cs8gp"><br>
+         
+        
+        <label for="pawd"> Passward:</label><br>
+        
+        <input type="password" id="pawd" fdprocessedid="ml0r23">  <label for="ph"> </label>
+        <br>
+
+        <label for="tel">Mobile number </label><br>
+        <input type="number" id="ph" name="phone" pattern="[00-9{10}]" fdprocessedid="c5ax4"><br>
+        
+       <label for="mail"> Email: </label> &nbsp;
+       <br>
+    
+        <input type="email" id="mail" name="mail" pattern="[@]" fdprocessedid="sq85uhf"> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <br> <label for="dob"> DOB: </label><br>
+        <input type="date" id="date" name="dob"><br>
+        <br>
+       
+        
+        
+        
+        <label for="gender"> Gender: </label>
+         
+        <input type="radio" id="gender" name="gender" value="male" gender=""> male
+        <input type="radio" id="gender" name="gender" value="female" gender="">female
+        <input type="radio" id="gender" name="gender" value="others" gender="">others<br> 
+        <br>
+    
+     <label for="address"> Address :</label> <input type="text" id="address" name="address" fdprocessedid="7w5mrs">
+    <br>
+    <br>
+     
+    
+    
+    <label for="city"> City :</label>
+    <select name="city" id="city" fdprocessedid="1v5y6e"> 
+        <option value="city"> Hyderabad </option>
+        <option value="city"> Banglore</option>
+        <option value="city"> Mumbai </option>
+        <option value="city"> Chennai </option>
+        <option value="city"> Pune</option>
+        <option value="city"> Nagpur</option>
+    
+    </select>
+    <br> 
+    <br> &nbsp; <label for="zipcode"> Zipcode :</label>
+    &nbsp;<input type="number" id="zipcode" name="zipcode" pattern="[00-9]" fdprocessedid="gex3zo">
+    <h4>SKILLS</h4>
+    <label for="SKILLS"> Python</label>
+    <input type="checkbox" id="SKILLS" name="SKILLS">
+    <label for="SKILLS"> Java</label>
+
+    <input type="checkbox" id="SKILLS" name="SKILLS">
+    <label for=" SKILLS"> AWS </label>
+    <input type="checkbox" id="SKILLS" name="SKILLS" <label="" for="SKILLS"> Html
+    <input type="checkbox" id="SKILLS" name="SKILLS">
+    <label for="SKILLS"> Css </label>
+    <input type="checkbox" id="SKILLS" name="SKILLS">
+    <label for="SKILLS"> JS </label>
+    <input type="checkbox" id="SKILLS" name="SKILLS">
+    <label for="SKILLS"> Others</label>
+    <input type="checkbox" id="SKILLS" name="SKILLS">
+    
+    <br>
+    <h5> EDUCATION</h5>
+    <label for="high school"></label>
+    <input type="text" id="high school" name="high school" placeholder="high school" fdprocessedid="jcfhqc">
+    <br>
+    <br>
+    <label for="university"></label>
+    <input type="text" id="university" placeholder="university" fdprocessedid="782qgog">
+    <h5> EXPERIENCE </h5>
+    <label for="experiance1"></label>
+    <input type="text" id="experience" placeholder=" experience1" fdprocessedid="ibmeta">
+    <br>
+    <br>
+         <label for="resume"> Upload resume</label>
+    <input type="file" id="resume" name="resume&gt;" <br="">
+    <br>
+    <br>
+    
+    <input type="submit" value="Register" fdprocessedid="v3aot">
+    </fieldset>
+    </form>
+        
+        
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+    
+</body></html>
